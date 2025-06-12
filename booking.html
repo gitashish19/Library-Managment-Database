@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Booking System</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Ticket Booking</h2>
+        <form id="booking-form">
+            <label for="name">First-Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="name">Last-Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="number">Phone-Number</label>
+            <input type="phone-number" id="number" name="number" required>
+            <label for="amount">Pay-amount</label>
+            <input type="amount" id="amount" name="pay" required>
+            <form id="bookingForm">
+                <button type="button" onclick="redirectToPayment()">Book Tickets</button>
+            </form>
+            
+            <script>
+                function redirectToPayment() {
+                    window.location.href = "payment.html";
+                }
+            </script>
+            
+        </form>
+        
+    </div>
+    <script src="booking.js"></script>
+</body>
+</html>

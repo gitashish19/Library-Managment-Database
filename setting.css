@@ -1,0 +1,42 @@
+
+body {
+    background-color: #f5f5f5;
+    background-image: url("https://img.freepik.com/free-photo/black-background-with-gears_23-2149872527.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+h2 {
+    font-size: 32px;
+    color:white;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+section {
+    
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 32px;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0056b2;
+}
+.p{
+    line-height:2;
+}
+

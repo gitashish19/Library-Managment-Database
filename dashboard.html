@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia-Style Dashboard</title>
+    <link rel="stylesheet" href="login.css/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>HISTORICAL PLACES TICKET BOOKING </h1>
+        <nav>
+           
+    <div class="main-content">
+        </div>
+
+
+<ul class="sidebar-list">
+    <li><a href="#">Dashboard</a></li>
+    <li><a href="#">Analytics</a></li>
+    <li><a href="setting.html">Settings</a></li>
+    <li><a href="#">Help</a></li>
+</ul>
+                <ul class="ashish">
+                <li><a href="BIHAR">Bihar</a></li>
+                <li><a href="DELHI">Delhi</a></li>
+                <li><a href="RAJASTHAN">Rajasthan</a></li>
+                <li><a href="Mumbai">Maharashtra</a></li>
+                <li><a href="Madhya Pradesh">Madhya Pradesh</a></li>
+                <li><a href="Goa">Goa</a></li>
+                <li><a href="Uttrakhand">Uttrakhand</a></li>
+                <li><a href="Jharkhand">Jharkhand</a></li>
+                <li><a href="Tamilnadu">Tamilnadu</a></li>
+                <li><a href="Andhra Pradesh">Andhra Pradesh</a></li>
+                <li><a href="north eastern">North East</a></li>
+                <li><a href="UttarPradesh">Uttar Pradesh</a></li>
+                <li><a href="Gujrat">Gujrat</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+
+<main>
+    <div class="search-bar">
+        <img src="https://cdn-icons-png.flaticon.com/128/1055/1055645.png" alt="Search">
+        <input type="text" placeholder="Search for best...">
+    </div>
+
+    <div class="image-list">
+        <div class="image-item">
+            <img src="ashish/photo1.jpeg" style="height:400px;width:400px;" alt="GOLGHAR PATNA">
+            <h3>"GOLGHAR PATNA"</h3>
+            <p class="price">visit details</p>
+        <a href = "golghar.html"><button class="details">details</button></a>
+        </div>
+        <div class="image-item">
+            <img src="ashish/photo2.jpeg" style="height:400px;width:400px;" alt="SANCHI STUP">
+            <h3>"SANCHI STUP"</h3>
+            <p class="price">VISIT-DETAILS</p>
+        <a href = "sanchistuph.html"><button class="details">details</button></a>
+        </div>
+         
+        <div class="image-item">
+            <img src="ashish/photo3.jpeg" style="height:400px;width:400px;" alt="red-fort">
+            <h3>"RED FORT"</h3>
+            <p class="price">VISIT-DETAILS</p>
+        <button class="details">details</button>
+        </div>
+        <div class="image-item">
+            <img src="ashish/photo4.jpeg" style="height:400px;width:400px;" alt="taj mahal">
+            <h3>"TAJ-MAHAL"</h3>
+            <p class="price">VISIT-DETAILS</p>
+        <button class="details">details</button>
+        </div>
+        
+        <div class="image-item">
+            <img src="ashish/photo5.jpeg" style="height:400px;width:400px;" alt="nalanda-university">
+            <h3>"NALANDA-UNIVERSITY"</h3>
+            <p class="price">VISIT-DETAILS</p>
+        <button class="details">details</button>
+        </div>
+        <div class="image-item">
+            <img src="ashish/photo6.jpeg" style="height:400px;width:400px;" alt="coorg">
+            <h3>"COORG"</h3>
+            <p class="price">VISIT-DETAILS</p>
+        <button class="details">details</button>
+        </div>
+        </div>
+    </main>
+    
+    <div class = "ass">
+        <h3>explore cultural-heritage on thissite.on</h3>
+        <p>Cultural heritage is the shared legacy of a group of people, passed down from generation to generation. It encompasses tangible and intangible aspects, including art, music, literature, language, customs, traditions, and historical sites. These elements define a people's identity, values, and connection to their past. Cultural heritage is vital for fostering understanding, promoting diversity, and preserving the richness of human experiences.</p>
+    </div>
+    
+        
+        
+        <div class="review-form">
+            <h2>Submit Your Review</h2>
+            <form action="submit_review.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="1">1 Star</option>
+                    <option value="2">2 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="5">5 Stars</option>
+                </select>
+    
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" required>Set something there......</textarea>
+    
+                <input type="submit" value="Submit Review">
+            </form>
+        </div>
+
+    <div class="review-container">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <div class="review-header">
+                <span class="review-rating">★★★★★</span>
+                <span class="review-name">Nitin Kumar</span>
+                <span class="review-date">2023-12-31</span>
+            </div>
+            <div class="review-text">
+                This site is amazing! It exceeded my expectations in every way. Highly recommended.
+            </div>
+        </div>
+        <div class="review">
+            <div class="review-header">
+                <span class="review-rating">★★★★☆</span>
+                <span class="review-name">Parmanand Yadav</span>
+                <span class="review-date">08-09-2024</span>
+            </div>
+            <div class="review-text">
+                Overall, I'm satisfied with the site. However, there are a few minor issues.
+            </div>
+        </div>
+        </div>
+        <footer>
+            &copy; 2023 ASHISH ARTICLE
+        </footer>
+        <script src="dashboard.js"></script>
+</body>
+</html>

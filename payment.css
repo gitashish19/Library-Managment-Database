@@ -1,0 +1,69 @@
+.payment-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-option {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:rgb(97, 96, 94);
+}
+
+.payment-option img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    display: block;
+    padding:32px;
+    font-size:32px;
+}
+body {
+    
+    background-image: url("ashish/pexels-imin-technology-276315592-12935049.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#form-container {
+    text-align: center;
+    margin: 20px;
+   background-color: beige;
+}
+#phoneNumberBox {
+    margin-top: 10px;
+background-color:beige
+}
+#payNowButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#confirmationPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    display: none;
+}
+#proceedButtton{
+    background-color:greenyellow;
+    color:white;
+    margin: none;
+}
